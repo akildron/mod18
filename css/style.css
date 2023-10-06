@@ -4,7 +4,7 @@ body{
 
 
 .topNav{
-   background-color: pink;
+   background-color: var(--Primary-gradient);
 }
  section.hero{
    background: var(--Primary-gradient);
