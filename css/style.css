@@ -2,8 +2,9 @@ body{
    margin: 0;
 }
 
+
 .topNav{
-   background-color: var(--Primary-gradient);
+   background-color: pink;
 }
  section.hero{
    background: var(--Primary-gradient);
