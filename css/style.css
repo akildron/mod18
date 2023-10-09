@@ -12,7 +12,7 @@ body{
 /* hello */
  .heroContainer{
    margin: auto;
-   width: 1400px;
+   width: var(--container-width);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -40,7 +40,7 @@ body{
 }
  .heroContainer{
    margin: auto; 
-   width: 1400px;
+   width: var(--container-width);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -68,7 +68,7 @@ body{
 }
 
 .projects{
-   width: 1400px;
+   width: var(--container-width);
    margin: auto;
    margin-top: 60px;
 }
@@ -133,7 +133,7 @@ body{
 }
 
 .footerContainer{
-   width: 1400px;
+   width: var(--container-width);
    margin: auto;
    padding: 30px;
    text-align: center;
