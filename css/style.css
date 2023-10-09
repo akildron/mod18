@@ -1,7 +1,7 @@
 body{
    margin: 0;
 }
-.topNav{
+.topNave{
    background-color: var(--Primary-extra-light);
 }
 .navContainer{
@@ -28,6 +28,9 @@ background-color: var(--Secondary-light);
 }
 .navItem.selected{
    color: var(--Secondary-dark);
+}
+.mobileMenu{
+   display: none;
 }
  section.hero{
    background: var(--Primary-gradient);
@@ -213,5 +216,16 @@ background-color: var(--Secondary-light);
    }
    .projectCard{
       width: 100%;
+   }
+}
+@media all and (max-width: 576px) {
+   .mobileMenu{
+      display: block;
+   }
+   ul.nav{
+      display: none;
+   }
+   .topNave{
+      padding: 20px 0;
    }
 }
