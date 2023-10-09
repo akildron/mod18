@@ -26,6 +26,9 @@ ul.nav{
 color: var(--Primary-dark);
 background-color: var(--Secondary-light);
 }
+.navItem.selected{
+   color: var(--Secondary-dark);
+}
  section.hero{
    background: var(--Primary-gradient);
  }
