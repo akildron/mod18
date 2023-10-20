@@ -1,7 +1,7 @@
 body{
    margin: 0;
 }
-.topNave{
+.topNav{
    background-color: var(--Primary-extra-light);
 }
 .navContainer{
@@ -225,7 +225,7 @@ background-color: var(--Secondary-light);
    ul.nav{
       display: none;
    }
-   .topNave{
+   .topNav{
       padding: 20px 0;
    }
 }
