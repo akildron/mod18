@@ -97,6 +97,11 @@ background-color: var(--Secondary-light);
    margin: auto;
    margin-top: 60px;
 }
+.projectContainer{
+   display: flex;
+   gap: 24px;
+   align-items: stretch;
+}
 
 .sectionTitle{
    font-size: var(--font-size-h2);
@@ -178,6 +183,15 @@ background-color: var(--Secondary-light);
    font-weight: 400;
    margin-bottom: 0;
    margin-top: 0.75rem;
+}
+
+.footerCopy{
+font-size: var(--font-size-body-small);
+font-style: normal;
+font-weight: 400;
+margin-bottom: 0;
+margin-top: 0.75rem;
+
 }
 @media all and (max-width: 1400px) {
    .heroImage{
