@@ -191,8 +191,8 @@ font-style: normal;
 font-weight: 400;
 margin-bottom: 0;
 margin-top: 0.75rem;
-
 }
+
 @media all and (max-width: 1400px) {
    .heroImage{
       width: 20%;
