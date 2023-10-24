@@ -1,3 +1,3 @@
 $("navIcon").on("click", function(){
-$("mobileNav").sideToggle();
+$(".mobileNav").sideToggle();
 })
