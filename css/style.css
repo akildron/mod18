@@ -251,6 +251,8 @@ margin-top: 0.75rem;
 }
 .mobileNav{
    position: absolute;
-   right: 0;
+   right: -20px;
    top: 30px;
+   background-color: white;
+   width: 100vw;
 }
