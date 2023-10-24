@@ -260,3 +260,7 @@ margin-top: 0.75rem;
    background-color: white;
    width: 100vw;
 }
+.mNavItem.selected{
+   font-weight: bold;
+   color: var(--Secondary-dark);
+}
