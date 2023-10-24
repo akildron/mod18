@@ -259,6 +259,7 @@ margin-top: 0.75rem;
    top: 30px;
    background-color: white;
    width: 100vw;
+   display: none;
 }
 .mNavItem.selected{
    font-weight: bold;
