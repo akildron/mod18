@@ -245,6 +245,10 @@ margin-top: 0.75rem;
 }
 .mNavItem{
    display: block;
+   padding: 20px 30px;
+   text-decoration: none;
+   border-bottom: 1px solid var(--Primary-extra-light);
+   color: var(--Primary);
 }
 .mobileMenu{
    position: relative;
